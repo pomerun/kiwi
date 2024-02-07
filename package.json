@@ -1,0 +1,39 @@
+{
+    "name": "@pomerun/kiwi",
+    "version": "1.0.0",
+    "description": "几维 - 适用于 uni-app 的移动端通用UI组件库",
+    "author": "pomerun",
+    "homepage": "https://kiwi.pomerun.com",
+    "license": "GPL-3.0-or-later",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/pomerun/kiwi.git"
+    },
+    "publishConfig": {
+        "@pomerun:registry": "https://npm.pkg.github.com"
+    },
+    "files": [
+        "components",
+        "styles"
+    ],
+    "scripts": {
+        "up": "pnpm update -i --latest",
+        "iconfont": "pdk-base64-iconfont -f ./development/iconfont/download.zip -s ./styles/fonts/iconkiwi.less -n iconkiwi -d",
+        "publ": "pdk-npm-publish & npm publ"
+    },
+    "dependencies": {
+        "@pomerun/uniapp-helpers": "^1.0.2",
+        "vue": "^3.5.22",
+        "vue-facing-decorator": "^4.0.1"
+    },
+    "peerDependencies": {
+        "@pomerun/uniapp-helpers": "^1.0.2",
+        "vue": "^3.5.22",
+        "vue-facing-decorator": "^4.0.1"
+    },
+    "devDependencies": {
+        "@dcloudio/types": "^3.4.21",
+        "@pomerun/devkit": "^1.1.4",
+        "typescript": "^5.9.2"
+    }
+}
