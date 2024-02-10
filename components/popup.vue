@@ -3,7 +3,7 @@
           :class="[transitionClass,{'header-fill':headerFill,bottom}]"
           :style="{zIndex,bottom,position}"
           v-if="show"
-          @touchmove.navtive.stop>
+          @touchmove.stop>
         <view class="bg"
               :class="{blur}"
               :style="{background}"

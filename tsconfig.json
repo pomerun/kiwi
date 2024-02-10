@@ -1,13 +1,8 @@
 {
     "compilerOptions": {
-        "target": "es2020",
-        "useDefineForClassFields": true,
+        "target": "esnext",
         "module": "esnext",
-        "lib": [
-            "es2020",
-            "dom",
-            "dom.iterable"
-        ],
+        "useDefineForClassFields": true,
         "skipLibCheck": true,
         "moduleResolution": "bundler",
         "allowImportingTsExtensions": true,
@@ -21,22 +16,20 @@
         "baseUrl": ".",
         "paths": {
             "@/*": [
-                "src/*"
+                "./components/*"
             ]
         },
         "types": [
             "@dcloudio/types"
+        ],
+        "lib": [
+            "esnext",
+            "dom",
+            "dom.iterable"
         ]
     },
-    "include": [
-        "env.d.ts",
-        "src/**/*.ts",
-        "src/**/*.tsx",
-        "src/**/*.vue"
-    ],
-    "references": [
-        {
-            "path": "./tsconfig.node.json"
-        }
+    "exclude": [
+        "node_modules",
+        "tests"
     ]
 }

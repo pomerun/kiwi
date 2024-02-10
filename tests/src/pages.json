@@ -1,0 +1,132 @@
+{
+    "pages": [
+        {
+            "path": "pages/home",
+            "style": {
+                "navigationBarTitleText": "Kiwi"
+            }
+        },
+        {
+            "path": "pages/button",
+            "style": {
+                "navigationBarTitleText": "Button - Kiwi"
+            }
+        },
+        {
+            "path": "pages/button-doc",
+            "style": {
+                "navigationBarTitleText": "Button - 说明文档 - Kiwi"
+            }
+        },
+        {
+            "path": "pages/cell",
+            "style": {
+                "navigationBarTitleText": "Cell - Kiwi"
+            }
+        },
+        {
+            "path": "pages/cell-doc",
+            "style": {
+                "navigationBarTitleText": "Cell - 说明文档 - Kiwi"
+            }
+        },
+        {
+            "path": "pages/icon",
+            "style": {
+                "navigationBarTitleText": "Icon - Kiwi"
+            }
+        },
+        {
+            "path": "pages/icon-doc",
+            "style": {
+                "navigationBarTitleText": "Icon - 说明文档 - Kiwi"
+            }
+        },
+        {
+            "path": "pages/popup",
+            "style": {
+                "navigationBarTitleText": "Popup - Kiwi"
+            }
+        },
+        {
+            "path": "pages/popup-doc",
+            "style": {
+                "navigationBarTitleText": "Popup - 说明文档 - Kiwi"
+            }
+        },
+        {
+            "path": "pages/loading",
+            "style": {
+                "navigationBarTitleText": "Loading - Kiwi"
+            }
+        },
+        {
+            "path": "pages/loading-doc",
+            "style": {
+                "navigationBarTitleText": "Loading - 说明文档 - Kiwi"
+            }
+        },
+        {
+            "path": "pages/load",
+            "style": {
+                "navigationBarTitleText": "Load - Kiwi",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/load-doc",
+            "style": {
+                "navigationBarTitleText": "Load - 说明文档 - Kiwi"
+            }
+        },
+        {
+            "path": "pages/swipeout",
+            "style": {
+                "navigationBarTitleText": "Swipeout - Kiwi"
+            }
+        },
+        {
+            "path": "pages/swipeout-doc",
+            "style": {
+                "navigationBarTitleText": "Swipeout - 说明文档 - Kiwi"
+            }
+        },
+        {
+            "path": "pages/rate",
+            "style": {
+                "navigationBarTitleText": "Rate - Kiwi"
+            }
+        },
+        {
+            "path": "pages/rate-doc",
+            "style": {
+                "navigationBarTitleText": "Rate - 说明文档 - Kiwi"
+            }
+        },
+        {
+            "path": "pages/drag",
+            "style": {
+                "navigationBarTitleText": "Drag - Kiwi"
+            }
+        },
+        {
+            "path": "pages/drag-doc",
+            "style": {
+                "navigationBarTitleText": "Drag - 说明文档 - Kiwi"
+            }
+        }
+    ],
+    "globalStyle": {
+        "navigationStyle": "custom",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "Kiwi",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    },
+    "easycom": {
+        "autoscan": true,
+        "custom": {
+            "^kiwi-(.*)": "../../../components/$1.vue"
+        }
+    }
+}
